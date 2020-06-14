@@ -7,6 +7,7 @@ Using this tidy data we created a second, independent tidy data set with the ave
 
 The "dataAssisment.txt" contains 180 observations (activities x subject) and 88 variables, check Column Details for explanation of the variables.
 
+
 #Column Details
 
 subject: An identifier of the subject who carried out the experiment.

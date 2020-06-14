@@ -8,4 +8,3 @@ Last it creates a second, independent tidy data set with the average of each var
 Read the codebook "CodeBook.md" for an explanation of the variables and data in "dataAssisment.txt".
 
 
-

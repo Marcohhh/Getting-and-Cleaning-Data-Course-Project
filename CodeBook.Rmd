@@ -1,0 +1,10 @@
+#CodeBook
+
+The beginning of this project is the dataset "Human Activity Recognition Using Smartphones", it contains the measurements made with a smartphone using its embedded accelerometer and gyroscope. 
+We merged the files from the test and training set (10299x561). Since we were interested only on the measurements on the mean and standard deviation for each measurement we extract the column only the specific column and we obtain a (10299x66), then we linked them to the relative activity and subject. To make a tidy data we converted the numerical column that described the activities into a factor by making the levels explicit in textual form; moreover we renamed the variables according to the "features.txt" file. 
+
+Using this tidy data we created a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+The "dataAssisment.txt" contains 180 observations (activities x subject) and 66 variables (according to all the measurements on the mean and standard deviation for each measurement in original data set). 
+
+
